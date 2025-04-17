@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FixNet — Когда важно, чтобы работало</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #111;
+      color: white;
+      scroll-behavior: smooth;
+      overflow-x: hidden;
+    }
+
+    .parallax {
+      background-image: url('https://images.unsplash.com/photo-1618005198919-d3d4b4e83848?auto=format&fit=crop&w=1470&q=80');
+      height: 100vh;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .parallax h1 {
+      font-size: 4em;
+      margin: 0;
+      background: rgba(0,0,0,0.5);
+      padding: 0.5em 1em;
+    }
+
+    .parallax h2 {
+      font-weight: 300;
+      font-size: 1.5em;
+      margin-top: 20px;
+      background: rgba(0,0,0,0.4);
+      padding: 0.3em 1em;
+    }
+
+    section {
+      padding: 80px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #00e0ff;
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.2em;
+      line-height: 1.6;
+      opacity: 0.95;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      color: #aaa;
+      background: #000;
+    }
+  </style>
+</head>
+<body>
+  <div class="parallax">
+    <h1>FixNet</h1>
+    <h2>Когда важно, чтобы работало.</h2>
+  </div>
+
+  <section data-aos="fade-up">
+    <h2>О проекте</h2>
+    <p>FixNet — это сеть сервисных центров нового поколения. Мы предоставляем высококачественный ремонт мобильной техники с прозрачным сервисом, единой ценовой политикой и удобной цифровой платформой.</p>
+  </section>
+
+  <section data-aos="fade-left">
+    <h2>Почему FixNet?</h2>
+    <p>Мы решаем проблему некачественного ремонта, отсутствия стандартов и доверия. FixNet предлагает понятные услуги, отслеживание статуса ремонта онлайн и ИИ-диагностику неисправностей.</p>
+  </section>
+
+  <section data-aos="fade-right">
+    <h2>Финансы</h2>
+    <p>Маржинальность до 90%, окупаемость точки — 6-12 месяцев. Запчасти закупаются централизованно, что снижает издержки и увеличивает прибыль партнёров.</p>
+  </section>
+
+  <section data-aos="fade-up">
+    <h2>Планы</h2>
+    <p>Наша цель — открыть 300 сервисных точек по всей России за 3 года. Развитие через собственные точки и франшизу с поддержкой и обучением.</p>
+  </section>
+
+  <section data-aos="zoom-in">
+    <h2>Контакты</h2>
+    <p>Фёдор Сторожук<br>Telegram: @fixnet_start<br>Email: zagat5654@gmail.com</p>
+  </section>
+
+  <footer>
+    &copy; 2025 FixNet — Все права защищены
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1200,
+      once: true,
+    });
+  </script>
+</body>
+</html>
